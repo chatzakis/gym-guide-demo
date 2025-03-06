@@ -1,4 +1,6 @@
 # Live Test Prototype
+[Visit Demo Site](https://chatzakis.github.io/gym-guide-demo/)
+
 ## Questions
 ### Βαθμολογήστε από το 1 = _Διαφωνώ απόλυτα_ έως το 5 = _Συμφωνώ απόλυτα_ 
 1. Γυμνάζεστε συχνά;
