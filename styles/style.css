@@ -1,0 +1,53 @@
+body{
+    background-color: #151515 !important;
+    height: 100vh;
+}
+
+h1, h2, h3, h4{
+    color: #e5e5e5;
+}
+
+p, li, span{
+    color: #c5c5c5;
+}
+
+.page-title{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-collapse ul{
+    margin: 0 auto;
+}
+
+
+video{
+    width: 100%;
+}
+
+.comment .username{
+    color: #e5e5e5;
+    font-size: .8rem;
+}
+
+
+/* Sections */
+.section-padding{
+    padding: 60px 15%;
+}
+
+.section-padding-2{
+    padding: 120px 15%;
+}
+
+@media (max-width:768px){
+    .section-padding{
+        padding: 40px 3%;
+    }    
+
+    .section-padding-2{
+        padding: 80px 3%;
+    }
+}

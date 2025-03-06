@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gym Guide Demo</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">⚡ Gym Guide Demo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Αρχική</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Για εμάς</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ασκήσεις
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Full body</a></li>
+              <li><a class="dropdown-item" href="#">Πλάτη</a></li>
+              <li><a class="dropdown-item" href="#">Στήθος</a></li>
+              <li><a class="dropdown-item" href="#">Κορμός</a></li>
+              <li><a class="dropdown-item" href="#">Ώμοι</a></li>
+              <li><a class="dropdown-item" href="#">Χέρια</a></li>
+              <li><a class="dropdown-item" href="#">Πόδια</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Διατάσεις</a></li>
+              <li><a class="dropdown-item" href="#">Αερόβιο</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Επικοινωνία</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Γίνε μέλος</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-title">
+    <h1 class="m-0">Κάθισμα (Squat)</h1>
+  </div>
+
+  <section id="video" class="section-padding">
+    <h2>Video</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <video controls autoplay loop muted style="border-radius: 8px;">
+          <source src="video/squat.mov" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="col-lg-8 col-md-6 p-4 d-flex flex-column justify-content-center">
+        <h3>Κάθισμα (Squat) – Περιγραφή Άσκησης</h3>
+        <p><em><strong>Μυϊκές ομάδες:</strong> Πόδια, τετρακέφαλοι, γλουτοί, οπίσθιοι μηριαίοι</em></p>
+        <p>Το κάθισμα είναι μια βασική πολυαρθρική άσκηση που ενεργοποιεί κυρίως τους τετρακέφαλους, τους γλουτούς και
+          τους οπίσθιους μηριαίους, ενώ παράλληλα απαιτεί σταθεροποίηση από τον κορμό. Πρόκειται για μια θεμελιώδη
+          κίνηση που βελτιώνει τη δύναμη, την ισορροπία και τη λειτουργικότητα του σώματος.</p>
+          <div style="padding: 0 20%;">
+            <img alt="squat muscle groups" src="images/squat.webp" class="img-fluid">
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="description" class="section-padding">
+    <h2 class="text-center">Οδηγίες</h2>
+    <h3>ΑΡΧΙΚΗ ΘΕΣΗ</h3>
+    <ul>
+      <li>Σταθείτε όρθιοι με τα πόδια στο άνοιγμα των ώμων ή λίγο πιο ανοιχτά.</li>
+      <li>Οι μύτες των ποδιών είναι ελαφρώς στραμμένες προς τα έξω.</li>
+      <li>Η σπονδυλική στήλη ουδέτερη και το βλέμμα μπροστά.</li>
+      <li>Το βάρος κατανέμεται ομοιόμορφα στο πέλμα.</li>
+      <li>Εισπνεύστε βαθιά, ενεργοποιήστε τον κορμό και ξεκινήστε την έκκεντρη φάση (κάθοδος).</li>
+    </ul>
+
+    <h3>ΚΑΘΟΔΟΣ</h3>
+    <ul>
+      <li>Ξεκινήστε την κίνηση σπρώχνοντας τους γοφούς προς τα πίσω και λυγίζοντας τα γόνατα.</li>
+      <li>Κατεβείτε ελεγχόμενα, διατηρώντας το βάρος στις φτέρνες και τη σπονδυλική στήλη ουδέτερη.</li>
+      <li>Τα γόνατα κινούνται στην ίδια κατεύθυνση με τις μύτες των ποδιών.</li>
+    </ul>
+
+    <h3>ΑΝΟΔΟΣ</h3>
+    <ul>
+      <li>Πιέστε με όλο το πέλμα εκτείνοντας ισχία και γόνατα ταυτόχρονα.</li>
+      <li>Επιστρέψτε στην αρχική θέση με έλεγχο και σταθερότητα.</li>
+    </ul>
+
+    <h3>ΣΗΜΕΙΑ ΚΛΕΙΔΙΑ</h3>
+    <ul>
+      <li>Η σπονδυλική στήλη μένει ουδέτερη καθ’ όλη τη διάρκεια της επανάληψης.</li>
+      <li>Το βάρος κατανέμεται ισόποσα σε όλο το πέλμα.</li>
+      <li>Η κίνηση πρέπει να είναι ελεγχόμενη και δυναμική.</li>
+      <li>Τα γόνατα πρέπει να ακολουθούν την κατεύθυνση των ποδιών.</li>
+    </ul>
+  </section>
+
+  <section id="comments" class="section-padding">
+    <h2>Σχόλια</h2>
+    <h3 class="fs-6">Προσθέστε σχόλιο</h3>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Προσθέστε ένα σχόλιο ή μία ερώτηση" aria-label="add comment"
+        aria-describedby="button-addon2">
+      <button class="btn btn-outline-primary" type="button" id="button-addon2">Προσθήκη</button>
+    </div>
+
+    <div class="comment my-2">
+      <span class="username">Mike</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+      </p>
+    </div>
+    <div class="comment my-2">
+      <span class="username">George</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+      </p>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
